@@ -1,0 +1,96 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.head {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.head h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.head .highlight {
+  color: #61dafb;
+}
+
+.head .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #61dafb;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+img {
+  margin-left: 10p;
+  padding-top:;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.tool-list li {
+  margin: 10px 15px;
+  padding: 10px 20px;
+  background: #eee;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
