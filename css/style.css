@@ -24,10 +24,11 @@ body {
 
 .head {
   display: flex;
+  flex-wrap: wrap;
   background-color: #282c34;
   color: white;
   padding: 80px 20px;
-  max-height: 800px;
+  max-height: 2000px;
 }
 
 .head h1 {
@@ -51,11 +52,27 @@ body {
   font-weight: bold;
 }
 
+.aboutMeHighlight {
+  color: #cf61fb;
+}
+
 .about {
   margin: auto;
-  max-width: 300px;
+  max-width: 800px;
   padding: 80px 20px;
-  text-align: left;
+  text-align: center;
+}
+
+.contactBtn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #cf61fb;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 img {
@@ -96,6 +113,10 @@ section h2 {
   background: #eee;
   border-radius: 20px;
   font-weight: 500;
+}
+
+footer h2{
+  color: white;
 }
 
 footer {
